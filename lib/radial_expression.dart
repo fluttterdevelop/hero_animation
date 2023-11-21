@@ -120,20 +120,14 @@ class RadialExpansionDemo extends StatelessWidget {
             TextStyle(color: Colors.pink[100]),
             ),
 
-             _buildHero(
-              context,
-              'assets/cars/rols.png',
-              "Rolls Roys",
-              style:
-            TextStyle(color: const Color.fromARGB(255, 87, 64, 72)),
-            ),
-             _buildHero(
-              context,
-              'assets/cars/gold2.png',
-              "Lamborgini gold Arabic sheikh",
-              style:
-            TextStyle(color: Color.fromARGB(255, 246, 226, 5)),
-            ),
+            //  _buildHero(
+            //   context,
+            //   'assets/cars/rols.png',
+            //   "Rolls Roys",
+            //   style:
+            // TextStyle(color: const Color.fromARGB(255, 87, 64, 72)),
+            // ),
+
              _buildHero(
               context,
               'assets/cars/captiva5.jpeg',
@@ -143,11 +137,19 @@ class RadialExpansionDemo extends StatelessWidget {
             ),
              _buildHero(
               context,
-              'assets/cars/mers_amg.png',
-              "Mersades Bens AMG  ",
+              'assets/cars/oq_rols.png',
+              "Rolls Roys ",
               style:
-            TextStyle(color: const Color.fromARGB(255, 58, 3, 23)),
+            TextStyle(color: Color.fromARGB(255, 246, 226, 5)),
             ),
+            
+            //  _buildHero(
+            //   context,
+            //   'assets/cars/mers_amg.png',
+            //   "Mersades Bens AMG  ",
+            //   style:
+            // TextStyle(color: const Color.fromARGB(255, 58, 3, 23)),
+            // ),
             
           ],
         ),
